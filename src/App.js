@@ -10,7 +10,7 @@ const API_URL = 'http://www.omdbapi.com?apikey=2d63a972';
 
 const App = () => {
 	const [movies, setMovies] = useState([]);
-	const [keyword, setKeyword] = useState('Batman');
+	const [keyword, setKeyword] = useState('movie');
 
 	const { handleSubmit, register } = useForm();
 
